@@ -1,4 +1,4 @@
-# باكدج bubble_curtain_splash
+# باكدج bubble_reveal_splash
 
 اسبلاش Flutter بستارة بابل بتتفتح، واللوجو بيبدأ صغير في نص الشاشة ويكبر
 لحد حجمه الطبيعي. الباكدج مستقلة عن Your Seat ومن غير اعتماديات تشغيل خارج Flutter.
@@ -6,11 +6,11 @@
 ## التثبيت بعد النشر
 
 ```sh
-flutter pub add bubble_curtain_splash
+flutter pub add bubble_reveal_splash
 ```
 
 ```dart
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 
 BubbleSplash(
@@ -50,14 +50,14 @@ flutter run -d chrome
 
 ```yaml
 dependencies:
-  bubble_curtain_splash:
+  bubble_reveal_splash:
     path: E:/packages/bubbles
 ```
 
-الاسم البرمجي بقى `bubble_curtain_splash` وملف الدخول
-`lib/bubble_curtain_splash.dart`؛ اسم المجلد المحلي فضل `bubbles`.
+الاسم البرمجي بقى `bubble_reveal_splash` وملف الدخول
+`lib/bubble_reveal_splash.dart`؛ اسم المجلد المحلي فضل `bubbles`.
 
-في [README](https://github.com/ZakariaEysa/bubble_curtain_splash#readme) أمثلة لكل
+في [README](https://github.com/ZakariaEysa/bubble_reveal_splash#readme) أمثلة لكل
 إعدادات الألوان والـ gradients والخلفية واللوجو والظلال والحدود والأشكال
 والأحجام والحركة والـ callbacks والـ AnimationController والـ custom builders.
 الافتراضي بيحترم إعداد تقليل الحركة في الجهاز، وبيُلغي المؤقتات عند إزالة الاسبلاش.

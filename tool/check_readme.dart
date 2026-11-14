@@ -38,7 +38,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 
 class _ReadmeAssets extends CachingAssetBundle {
   @override

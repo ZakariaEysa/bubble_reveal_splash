@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui' as ui;
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
@@ -54,7 +54,7 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     final boundary = GlobalKey();
     await tester.pumpWidget(
-      RepaintBoundary(key: boundary, child: const BubbleCurtainExample()),
+      RepaintBoundary(key: boundary, child: const BubbleRevealExample()),
     );
     await tester.pumpAndSettle();
     Future<void> save(String name, {String directory = 'doc'}) async {

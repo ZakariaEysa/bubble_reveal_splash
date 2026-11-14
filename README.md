@@ -1,10 +1,10 @@
-# Bubble Curtain Splash
+# Bubble Reveal Splash
 
 A Flutter splash screen that opens a moving curtain of bubbles while your logo
 grows from the center to its natural size. Customize the entire effect with
 ordinary Flutter widgets. No third-party runtime dependencies.
 
-![Logo growing as the bubble curtain opens](https://raw.githubusercontent.com/ZakariaEysa/bubble_curtain_splash/main/doc/bubbles_preview.gif)
+![Logo growing as the bubble curtain opens](https://raw.githubusercontent.com/ZakariaEysa/bubble_reveal_splash/main/doc/bubbles_preview.gif)
 
 - Any logo widget: an asset, text, icon, vector widget, or your own composition.
 - Bubble colors, gradients, shapes, borders, shadows, density, and sizing.
@@ -36,18 +36,18 @@ NOVA palettes. Replace it with your own branding in your application.
 ## Installation
 
 ```sh
-flutter pub add bubble_curtain_splash
+flutter pub add bubble_reveal_splash
 ```
 
 Or add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  bubble_curtain_splash: ^0.1.0
+  bubble_reveal_splash: ^0.1.0
 ```
 
 ```dart
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 ```
 
@@ -60,7 +60,7 @@ This complete application reveals a logo, holds it for one second, then displays
 the next screen. Use your own navigation inside `onCompleted` if preferred.
 
 ```dart
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MaterialApp(home: WelcomeSplash()));
@@ -657,7 +657,7 @@ Defaults below are useful when adapting a theme.
 
 ## Example and development
 
-[Browse the interactive example](https://github.com/ZakariaEysa/bubble_curtain_splash/tree/main/example)
+[Browse the interactive example](https://github.com/ZakariaEysa/bubble_reveal_splash/tree/main/example)
 or run it from a checkout:
 
 ```sh
@@ -670,13 +670,13 @@ The example contains Android, iOS, web, and Windows runners. Build iOS on macOS.
 The package itself uses platform-independent Flutter widgets. Android/iOS/native
 desktop builds have not been verified as part of the initial web validation.
 
-![Interactive playground](https://raw.githubusercontent.com/ZakariaEysa/bubble_curtain_splash/main/doc/playground.png)
+![Interactive playground](https://raw.githubusercontent.com/ZakariaEysa/bubble_reveal_splash/main/doc/playground.png)
 
 To use a local checkout before publication:
 
 ```yaml
 dependencies:
-  bubble_curtain_splash:
+  bubble_reveal_splash:
     path: ../bubbles
 ```
 
@@ -691,8 +691,8 @@ flutter test
 flutter build web
 ```
 
-See the [Arabic setup guide](https://github.com/ZakariaEysa/bubble_curtain_splash/blob/main/START_HERE_AR.md),
-[changelog](https://github.com/ZakariaEysa/bubble_curtain_splash/blob/main/CHANGELOG.md),
-and [issue tracker](https://github.com/ZakariaEysa/bubble_curtain_splash/issues).
+See the [Arabic setup guide](https://github.com/ZakariaEysa/bubble_reveal_splash/blob/main/START_HERE_AR.md),
+[changelog](https://github.com/ZakariaEysa/bubble_reveal_splash/blob/main/CHANGELOG.md),
+and [issue tracker](https://github.com/ZakariaEysa/bubble_reveal_splash/issues).
 Licensed under the MIT License. First-release publishing steps are in
 `PUBLISHING.md` in the source repository.

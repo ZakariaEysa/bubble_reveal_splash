@@ -1,6 +1,6 @@
-# Bubble Curtain Studio
+# Bubble Reveal Studio
 
-Interactive example for `bubble_curtain_splash`.
+Interactive example for `bubble_reveal_splash`.
 
 ```sh
 flutter pub get

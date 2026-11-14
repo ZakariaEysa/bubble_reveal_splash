@@ -1,14 +1,14 @@
 import 'dart:math' as math;
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(const BubbleCurtainExample());
+void main() => runApp(const BubbleRevealExample());
 
-class BubbleCurtainExample extends StatelessWidget {
-  const BubbleCurtainExample({super.key});
+class BubbleRevealExample extends StatelessWidget {
+  const BubbleRevealExample({super.key});
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: 'Bubble Curtain Studio',
+    title: 'Bubble Reveal Studio',
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       useMaterial3: true,
@@ -189,7 +189,7 @@ class _PlaygroundState extends State<Playground>
                         Icon(Icons.bubble_chart, color: brand.ink, size: 32),
                         const SizedBox(width: 10),
                         const Text(
-                          'curtain',
+                          'reveal',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.w800,

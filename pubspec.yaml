@@ -1,8 +1,8 @@
-name: bubble_curtain_splash
+name: bubble_reveal_splash
 description: A customizable Flutter splash with a moving bubble curtain, centered logo growth, directional reveals, and playback controls.
 version: 0.1.0
-repository: https://github.com/ZakariaEysa/bubble_curtain_splash
-issue_tracker: https://github.com/ZakariaEysa/bubble_curtain_splash/issues
+repository: https://github.com/ZakariaEysa/bubble_reveal_splash
+issue_tracker: https://github.com/ZakariaEysa/bubble_reveal_splash/issues
 
 environment:
   sdk: '>=3.10.0 <4.0.0'

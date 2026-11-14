@@ -1,9 +1,9 @@
-# Publishing bubble_curtain_splash
+# Publishing bubble_reveal_splash
 
 The first release is version **0.1.0**. The package lives locally in
 `E:\packages\bubbles`; folder names do not determine the published Dart name.
 
-Source: https://github.com/ZakariaEysa/bubble_curtain_splash
+Source: https://github.com/ZakariaEysa/bubble_reveal_splash
 
 ## Validate
 
@@ -46,7 +46,7 @@ Follow the Google-account authentication flow if requested. Review the final
 archive prompt before confirming. This command uploads to pub.dev; a dry run
 does not. No token or Google credential belongs in this repository.
 
-Name availability was checked through `https://pub.dev/api/packages/bubble_curtain_splash`
+Name availability was checked through `https://pub.dev/api/packages/bubble_reveal_splash`
 before preparation and returned HTTP 404. That does not reserve the name; the
 server decides availability at the time of the first upload.
 

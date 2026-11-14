@@ -1,5 +1,5 @@
-name: bubble_curtain_splash_example
-description: Interactive playground for the bubble_curtain_splash package.
+name: bubble_reveal_splash_example
+description: Interactive playground for the bubble_reveal_splash package.
 publish_to: none
 version: 1.0.0+1
 environment:
@@ -7,7 +7,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bubble_curtain_splash:
+  bubble_reveal_splash:
     path: ../
 dev_dependencies:
   flutter_test:

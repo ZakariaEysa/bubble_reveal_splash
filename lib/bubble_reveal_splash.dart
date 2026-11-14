@@ -1,4 +1,4 @@
-/// A moving bubble curtain with customizable branding and centered logo growth.
+/// A bubble reveal splash with customizable branding and centered logo growth.
 library;
 
 export 'src/bubble_particle.dart';

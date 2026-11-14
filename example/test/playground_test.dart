@@ -1,5 +1,5 @@
-import 'package:bubble_curtain_splash_example/main.dart';
-import 'package:bubble_curtain_splash/bubble_curtain_splash.dart';
+import 'package:bubble_reveal_splash_example/main.dart';
+import 'package:bubble_reveal_splash/bubble_reveal_splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -68,7 +68,7 @@ void main() {
       tester.view.devicePixelRatio = 1;
       addTearDown(tester.view.resetPhysicalSize);
       addTearDown(tester.view.resetDevicePixelRatio);
-      await tester.pumpWidget(const BubbleCurtainExample());
+      await tester.pumpWidget(const BubbleRevealExample());
       await tester.pumpAndSettle();
       expect(tester.takeException(), isNull);
       await tester.ensureVisible(find.widgetWithText(ChoiceChip, 'SOL'));
