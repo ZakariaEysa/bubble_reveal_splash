@@ -1,0 +1,17 @@
+test/
+tool/
+*.iml
+*.pyc
+__pycache__/
+coverage/
+PUBLISHING.md
+build/
+.dart_tool/
+pubspec.lock
+example/build/
+example/.dart_tool/
+example/pubspec.lock
+example/android/local.properties
+example/android/key.properties
+doc/*.html
+doc/bubbles_logo_grow.gif

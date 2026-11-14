@@ -1,0 +1,29 @@
+name: bubble_curtain_splash
+description: A customizable Flutter splash with a moving bubble curtain, centered logo growth, directional reveals, and playback controls.
+version: 0.1.0
+repository: https://github.com/ZakariaEysa/bubble_curtain_splash
+issue_tracker: https://github.com/ZakariaEysa/bubble_curtain_splash/issues
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+topics:
+  - animation
+  - splash-screen
+  - widgets
+  - splash
+
+screenshots:
+  - description: Interactive playground with original LUMA branding and animation settings.
+    path: doc/playground.png
+  - description: Bubble curtain halfway through the logo reveal.
+    path: doc/reveal.png

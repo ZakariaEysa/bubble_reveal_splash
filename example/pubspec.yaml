@@ -1,0 +1,16 @@
+name: bubble_curtain_splash_example
+description: Interactive playground for the bubble_curtain_splash package.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  bubble_curtain_splash:
+    path: ../
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

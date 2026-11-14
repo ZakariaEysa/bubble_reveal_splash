@@ -1,0 +1,4 @@
+dartdoc:
+  linkToSource:
+    root: '.'
+    uriTemplate: 'https://github.com/ZakariaEysa/bubble_curtain_splash/blob/main/%f%#L%l%'

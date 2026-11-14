@@ -1,0 +1,35 @@
+name: Package checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Formatting
+        run: dart format --output=none --set-exit-if-changed lib test tool example/lib example/test
+      - run: flutter analyze --no-pub
+      - run: flutter test --no-pub
+      - name: README examples
+        run: dart run tool/check_readme.dart
+      - name: Example tests
+        working-directory: example
+        run: flutter test --no-pub
+      - name: Example web build
+        working-directory: example
+        run: flutter build web --no-wasm-dry-run
+      - name: API documentation
+        run: dart doc --validate-links --output build/api
+      - name: Publication dry run
+        run: flutter pub publish --dry-run

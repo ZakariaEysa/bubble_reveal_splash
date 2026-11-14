@@ -1,0 +1,17 @@
+.dart_tool/
+.flutter-plugins-dependencies
+.idea/
+*.iml
+*.pyc
+__pycache__/
+build/
+coverage/
+pubspec.lock
+example/pubspec.lock
+example/android/local.properties
+example/android/key.properties
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/flutter_export_environment.sh
+example/**/flutter/ephemeral/
+example/**/Flutter/ephemeral/
+doc/bubbles_logo_grow.gif
